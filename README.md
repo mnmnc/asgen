@@ -31,5 +31,5 @@ This is a script written as an answer to a particular Superuser.com question. Ex
 
     and it will work all the same.
 
-
+***
 In case you have an error when executing the script you probably have incorrect setting for Execution policy for powershell. To change that you have to open powershell console as administrator and type in `Set-ExecutionPolicy Unrestricted` and type in `Y` when asked to confirm. That's it. Should work fine.
