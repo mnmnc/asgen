@@ -7,9 +7,9 @@ This is a script written as an answer to a particular Superuser.com question. Ex
 
 ### The actions performed:
 
-    Delete previous file.
-    Check the running processes.
-    Filter the list by path that contains specific word (Program) which assumes all programs are installed either in Program Files or Program files(x86)
+⋅⋅**Delete previous file.
+   ⋅⋅* Check the running processes.
+    ⋅⋅*Filter the list by path that contains specific word (Program) which assumes all programs are installed either in Program Files or Program files(x86)
     Get the absolute paths to executables of processes that were found
     Write paths to temp file in temp directory.
     Move temp file to destination directory that is to Startup folder of user.
