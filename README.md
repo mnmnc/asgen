@@ -5,6 +5,9 @@ Automatic Startup Generator
 
 This is a script written as an answer to a particular Superuser.com question. Exactly [this question](http://superuser.com/questions/784831/start-windows-with-previously-open-programs).
 
+### Purpose
+To save the programs running befor the PC shutdown and to start the same programs after the next booting process.
+
 ### The actions performed:
 
 * Delete previous file.
