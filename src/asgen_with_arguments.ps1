@@ -23,7 +23,6 @@ $arr_paths = @()
 
 # FILLING ARRAYS
 Get-WmiObject Win32_Process | Where-Object { $_.Path -match "Program" } | foreach { $arr_names += $_.Name; $arr_paths += $_.CommandLine;  }
-#Get-Process | Where-Object {$_.Path -match "Program" } | foreach { $arr_names += $_.Name; $arr_paths += $_.Path }
 
 # CREATING FILE
 for($i = 0; $i -le $arr_names.count -1; $i++) 
